@@ -1,8 +1,8 @@
-mkdir ..\dist\lib
-mkdir ..\dist\lua\jit
-mkdir ..\dist\include
-xcopy /y /s *.lib ..\dist\lib\
-xcopy /y /s lua51.dll ..\dist\
-xcopy /y /s luajit.exe ..\dist\
-xcopy /y /s jit ..\dist\lua\jit\
-xcopy /y /s *.h ..\dist\include\
+mkdir /q ..\dist\lib
+mkdir /q ..\dist\lua\jit
+mkdir /q ..\dist\include
+xcopy /q /y /s *.lib ..\dist\lib\
+xcopy /q /y /s lua51.dll ..\dist\
+xcopy /q /y /s luajit.exe ..\dist\
+xcopy /q /y /s jit ..\dist\lua\jit\
+xcopy /q /y /s *.h ..\dist\include\
